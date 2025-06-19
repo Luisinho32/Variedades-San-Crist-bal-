@@ -1,0 +1,57 @@
+body {
+    background-color: #532A6B;
+    text-align: center;
+}
+h1{
+    color: #4B88FFDE;
+    font-size: 30px;
+}
+h4{
+    color: #8ECEFFDE;
+    font-size: 20px;
+}
+p{
+    color: #69A5C5EB;
+    font-size: 15px;
+}
+button{
+    background-color: #9458C2;
+    color: #FFFFFFE6;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+}
+.centrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    text-align: center;
+    flex-direction: column;
+}
+.fade-in {
+    animation: aparecer 0.5s ease-in forwards;
+}
+.fade-out {
+    animation: desaparecer 0.5s ease-out forwards;
+}
+@keyframes aparecer {
+    from{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes desaparecer {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    to{
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+}

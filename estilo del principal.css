@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.bienvenida {
+  background-color: #FF7A00E8;
+  padding: 20px;
+  h3{
+    color: #252525;
+  }
+}
+
+.contacto {
+  background-color: #FF9533;
+  padding: 20px;
+  border-top: 3px solid #000000;
+  h4{
+    color:#FFFFFF;
+  }
+  button{
+    background-color: #D6D900;
+    color: #848484;
+    border: none;
+    border-radius: 16px;
+    padding: 5px 2px;
+  }
+}
+.catalogo {
+  border-top: 3px solid #000000;
+  background-color: #D1833C;
+  padding: 20px;
+  h4{
+    color: #FFFFFF;
+  }
+  button{
+    background-color: #D6D900;
+    color: #848484;
+    border: none;
+    border-radius: 16px;
+    padding: 5px 10px;
+  }
+}
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: aparecer 0.5s forwards ease;
+}
+@keyframes aparecer {
+  to{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

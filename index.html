@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Variedades San Cristóbal</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="estilo del index.css">
+</head>
+<body>
+  <div id="contenedor" class="fade-in">
+  <div class="centrado">
+  <h1>Bienvenido a variedades san Cristóbal </h1>
+  <h4>todo lo que tu hogar necesita en un solo lugar</h4>
+  <p>en variedades san Cristóbal encontraras todo tipo de productos necesarios para tu hogar.</p>
+  <button id="irBtn">Ver mas</button>
+  </div>
+  <!-- Project -->
+  <script src="main.js"></script>
+  <script>
+  const btn = document.getElementById("irBtn");
+  const contenedor =
+  document.getElementById("contenedor");
+  btn.addEventListener("click",function(){
+      contenedor.classList.add('fade-out');
+      setTimeout(()=> {
+        window.location.href="principal.html";
+      },500);
+    });
+  </script>
+  </div>
+</body>
+</html>
