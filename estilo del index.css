@@ -1,5 +1,5 @@
 body {
-    background-color: #532A6B;
+    background-color: #AF8200D9;
     text-align: center;
 }
 h1{
@@ -7,15 +7,15 @@ h1{
     font-size: 30px;
 }
 h4{
-    color: #8ECEFFDE;
+    color: #6F4B00;
     font-size: 20px;
 }
-p{
-    color: #69A5C5EB;
+h6{
+    color: #FFFFFF;
     font-size: 15px;
 }
 button{
-    background-color: #9458C2;
+    background-color: #323991;
     color: #FFFFFFE6;
     border: none;
     border-radius: 15px;
@@ -25,7 +25,8 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    height: 0vh;
+    top: 30px;
     text-align: center;
     flex-direction: column;
 }
@@ -54,4 +55,9 @@ button{
         opacity: 0;
         transform: translateY(-20px);
     }
+}
+img{
+    position: relative;
+    top: -28px;
+    left: -7.9px;
 }
